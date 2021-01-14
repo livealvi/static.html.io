@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+    font-size: 16px;
+    line-height: 28px;
+    text-rendering: optimizeLegibility;
+}
+
+/* ------------- nav-area ------------- */
+.top-area,
+.work-education-area {
+    background: #897583;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #897583 0%, #317386 53%, #897583 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #897583), color-stop(53%, #317386), color-stop(100%, #897583));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg, #897583 0%, #317386 53%, #897583 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg, #897583 0%, #317386 53%, #897583 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg, #897583 0%, #317386 53%, #897583 100%);
+    /* IE10+ */
+    background: linear-gradient(45deg, #897583 0%, #317386 53%, #897583 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#897583', endColorstr='#897583', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.top-area {
+    height: 100vh;
+}
+
+.navigation-area {
+
+    padding: 30px 0;
+}
+
+.menu-icon {
+    text-align: right;
+}
+
+.menu-icon a {
+    color: #fff;
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 22px;
+    display: inline-table;
+}
+
+.menu-icon a i {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.hero-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.welcome-text h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 65px;
+}
+
+.welcome-text h1:before,
+.welcome-text h1:after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    content: "";
+}
+
+.welcome-text h1:before {
+    top: 0;
+}
+
+.welcome-text h1:after {
+    bottom: 0;
+}
+
+.welcome-text p {
+    color: #fff;
+    font-size: 23px;
+}
+
+/* ------------- about-me-area ------------- */
+.about-me-area {
+    padding-top: 80px;
+}
+
+.about-img {}
+
+.about-me-details {
+    margin-top: 30px;
+}
+
+.about-me-details h4 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about-me-details a.hire-me {
+    display: inline-block;
+    background-color: #ff2b4a;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+/* ------------- working-process ------------- */
+.working-process {
+    background-color: #f6f6f6;
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+
+}
+
+.section-title h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-title p {
+    font-weight: 500;
+    opacity: 0.7;
+    margin-bottom: 35px;
+}
+
+.process {
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.process h5 {
+    text-transform: uppercase;
+    padding-top: 30px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; */
+}
+
+.light-blue {
+    background-color: #10c6fc;
+}
+
+.purple {
+    background-color: #835aeb;
+}
+
+.deep-blue {
+    background-color: #002453;
+}
+
+.red-orange {
+    background-color: #ff2b4a;
+}
+
+/* ------------- work-education-area ------------- */
+.work-education-area {
+    padding: 80px 0;
+}
+
+.work-edu {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6c637b+0,4f637c+65 */
+    background: #6c637b;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #6c637b 0%, #4f637c 65%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #6c637b), color-stop(65%, #4f637c));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg, #6c637b 0%, #4f637c 65%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg, #6c637b 0%, #4f637c 65%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg, #6c637b 0%, #4f637c 65%);
+    /* IE10+ */
+    background: linear-gradient(45deg, #6c637b 0%, #4f637c 65%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c637b', endColorstr='#4f637c', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+
+    padding: 60px 30px;
+    color: #fff;
+}
+
+.work-edu h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+.s-work {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #7a8498;
+    padding-bottom: 30px;
+}
+
+.s-work h4 {
+    padding-bottom: 15px;
+    font-weight: 700;
+    opacity: .90;
+}
+
+.s-work h5 {
+    text-transform: uppercase;
+    font-weight: 500;
+    opacity: .70;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.s-work p {
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: .50;
+}
+
+.work-edu div:last-child.s-work {
+    margin-bottom: 0;
+    border-bottom: 0 solid #7a8498;
+    padding: 0;
+}
+
+/* ------------- portfolio-area ------------- */
+.portfolio-area {
+    padding: 80px 0;
+}
+
+.single-portfolio {
+    margin-bottom: 30px;
+}
+
+.single-portfolio img {
+    width: 100%;
+}
+
+/* ------------- testimonial-area ------------- */
+.testimonial-area {
+    background-color: #64cbc0;
+    padding: 80px 0;
+}
+
+.testi-slider {
+    position: relative;
+    padding-top: 70px;
+}
+
+.testi-slider:before {
+    content: "";
+    background: url(css_img/comma.png) no-repeat scroll 0 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 58px;
+    height: 47px;
+}
+
+.author-details {
+    margin-top: 30px;
+
+}
+
+.author-details img {
+    margin-bottom: 20px;
+}
+
+.author-details h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.author-details h3 span {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+}
